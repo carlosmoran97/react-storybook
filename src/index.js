@@ -5,8 +5,8 @@ import { GlobalStyle } from "./utils";
 
 const App = () => (
   <div>
-    <PrimaryButton>Primary Button</PrimaryButton>
-    <SecondaryButton>Secondary Button</SecondaryButton>
+    <PrimaryButton modifiers="small">Primary Button</PrimaryButton>
+    <SecondaryButton modifiers={["large"]}>Secondary Button</SecondaryButton>
     <TertiaryButton>Tertiary Button</TertiaryButton>
     <GlobalStyle />
   </div>
